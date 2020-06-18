@@ -1,7 +1,7 @@
 package com.sc.entity;
 
 import java.util.Date;
-
+//这是git测试
 public class Area {
 	private Long areaId;
 	private String areaName;
