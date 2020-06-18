@@ -6,7 +6,6 @@ public class LocalAuth {
 	private Long localAuthId;
 	private String userName;
 	private String password;
-	private Long userId;
 	private Date createTime;
 	private Date lastEditTime;
 	private PersonInfo personInfo;
@@ -35,13 +34,7 @@ public class LocalAuth {
 		this.password = password;
 	}
 
-	public Long getUserId() {
-		return userId;
-	}
-
-	public void setUserId(Long userId) {
-		this.userId = userId;
-	}
+	
 
 	public Date getCreateTime() {
 		return createTime;

@@ -1,15 +1,10 @@
 package com.sc.entity;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class Product implements Serializable{
+public class Product{
 	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -349433539553804024L;
 	private Long productId;
 	private String productName;
 	private String productDesc;
@@ -20,7 +15,6 @@ public class Product implements Serializable{
 	private Date createTime;
 	private Date lastEditTime;
 	private Integer enableStatus;
-	private Integer point;
 
 	private List<ProductImg> productImgList;
 	private ProductCategory productCategory;
@@ -106,13 +100,7 @@ public class Product implements Serializable{
 		this.enableStatus = enableStatus;
 	}
 
-	public Integer getPoint() {
-		return point;
-	}
 
-	public void setPoint(Integer point) {
-		this.point = point;
-	}
 
 	public List<ProductImg> getProductImgList() {
 		return productImgList;
