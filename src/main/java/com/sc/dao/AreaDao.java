@@ -10,4 +10,5 @@ public interface AreaDao {
 	 * @return areaList
 	 */
 	List<Area> queryArea();
+	//xiugai
 }

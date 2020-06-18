@@ -3,7 +3,6 @@ package com.sc.entity;
 import java.util.Date;
 
 public class ShopCategory {
-
 	private Long shopCategoryId;
 	private String shopCategoryName;
 	private String shopCategoryDesc;
