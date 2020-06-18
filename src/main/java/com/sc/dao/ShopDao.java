@@ -9,5 +9,4 @@ public interface ShopDao {
 	 * @return
 	 */
 	int inserShop(Shop shop);
-	fang
 }
