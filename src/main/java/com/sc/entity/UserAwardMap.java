@@ -2,6 +2,7 @@ package com.sc.entity;
 
 import java.util.Date;
 
+
 public class UserAwardMap {
 
 	private Long userAwardId;

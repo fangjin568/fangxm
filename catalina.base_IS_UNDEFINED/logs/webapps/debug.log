@@ -13,8 +13,30 @@
 ]2020-06-18 17:10:59.646 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 17:10:58.835(Timestamp), null, 1(Integer), 审核中(String)
 ]2020-06-18 17:17:37.502 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
 ]2020-06-18 17:17:37.602 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 17:17:36.773(Timestamp), null, 1(Integer), 审核中(String)
+<<<<<<< HEAD
 ]2020-06-18 17:27:07.126 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(shop_id,owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (??,??,?, ?,?,?,?,?,?, ?,?,?) 
 ]2020-06-18 17:27:07.211 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 3(Long), 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 17:27:06.28(Timestamp), null, 1(Integer), 审核中(String)
 ]2020-06-18 17:28:20.098 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
 ]2020-06-18 17:28:20.200 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 17:28:19.228(Timestamp), 2020-06-18 17:28:19.228(Timestamp), 1(Integer), 审核中(String)
+=======
+]2020-06-18 22:08:18.778 [main]DEBUGcom.sc.dao.AreaDao.queryArea-==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
+]2020-06-18 22:08:18.823 [main]DEBUGcom.sc.dao.AreaDao.queryArea-==> Parameters: 
+]2020-06-18 22:08:18.846 [main]DEBUGcom.sc.dao.AreaDao.queryArea-<==      Total: 4
+]2020-06-18 22:08:38.149 [main]DEBUGcom.sc.dao.AreaDao.queryArea-==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
+]2020-06-18 22:08:38.185 [main]DEBUGcom.sc.dao.AreaDao.queryArea-==> Parameters: 
+]2020-06-18 22:08:38.208 [main]DEBUGcom.sc.dao.AreaDao.queryArea-<==      Total: 4
+]2020-06-18 22:09:14.734 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
+]2020-06-18 22:09:14.880 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 22:09:14.134(Timestamp), null, 1(Integer), 审核中(String)
+]2020-06-18 22:11:52.060 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
+]2020-06-18 22:11:52.106 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-06-18 22:11:51.486(Timestamp), 2020-06-18 22:11:51.486(Timestamp), 1(Integer), 审核中(String)
+]2020-06-18 22:22:22.190 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
+]2020-06-18 22:22:22.234 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Long), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 2020-06-18 22:22:21.54(Timestamp), 2020-06-18 22:22:21.54(Timestamp), 1(Integer), 审核中(String)
+]2020-06-18 22:25:27.957 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,??,?, ?,?,?,?,?,?, ?,?,?) 
+]2020-06-18 22:25:28.008 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 2020-06-18 22:25:27.36(Timestamp), 2020-06-18 22:25:27.36(Timestamp), 1(Integer), 审核中(String)
+]2020-06-18 22:28:48.068 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,??,?, ?,?,?,?,?,?,?) 
+]2020-06-18 22:28:48.114 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 1(Integer), 审核中(String)
+]2020-06-18 22:39:46.503 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-18 22:39:46.548 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 1(Integer), 审核中(String)
+]2020-06-18 22:39:46.602 [main]DEBUGcom.sc.dao.ShopDao.inserShop-<==    Updates: 1
+>>>>>>> branch 'master' of git@github.com:fangjin568/fangxm.git
 ]

@@ -1,19 +1,19 @@
 package com.sc.entity;
 
 import java.util.Date;
-
+//这是git测试
 public class Area {
-	private Long areaId;
+	private Integer areaId;
 	private String areaName;
 	private Integer priority;
 	private Date createTime;
 	private Date lastEditTime;
 
-	public Long getAreaId() {
+	public Integer getAreaId() {
 		return areaId;
 	}
 
-	public void setAreaId(Long areaId) {
+	public void setAreaId(Integer areaId) {
 		this.areaId = areaId;
 	}
 
