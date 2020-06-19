@@ -75,4 +75,13 @@
 ]2020-06-19 13:30:18.006 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
 ]2020-06-19 13:30:18.043 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺2(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
 ]2020-06-19 13:30:18.062 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 16:42:13.973 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority desc 
+]2020-06-19 16:42:14.033 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+]2020-06-19 16:42:14.076 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+]2020-06-19 16:50:45.188 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority desc 
+]2020-06-19 16:50:45.257 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+]2020-06-19 16:50:45.283 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
+]2020-06-19 16:50:45.293 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id = ? order by priority desc 
+]2020-06-19 16:50:45.294 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
+]2020-06-19 16:50:45.296 [main]DEBUGcom.sc.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
 ]
