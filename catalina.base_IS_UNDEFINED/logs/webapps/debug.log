@@ -51,4 +51,28 @@
 ]2020-06-19 09:00:50.214 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
 ]2020-06-19 09:00:50.295 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试描述(String), 测试地址(String), 2020-06-19 09:00:49.385(Timestamp), 1(Long)
 ]2020-06-19 09:00:50.554 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
+]2020-06-19 13:10:46.268 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 13:10:46.337 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
+]2020-06-19 13:10:46.353 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 13:10:46.470 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+]2020-06-19 13:10:46.472 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试的店铺1(String), test1(String), test1(String), test1(String), \upload\item\shop\5\2020061913104680340.jgp(String), 2020-06-19 13:10:46.24(Timestamp), 0(Integer), 审核中(String), 1(Long), 1(Integer), 5(Long)
+]2020-06-19 13:10:46.492 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
+]2020-06-19 13:16:11.541 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 13:16:11.577 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
+]2020-06-19 13:16:11.588 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 13:16:11.708 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+]2020-06-19 13:16:11.710 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试的店铺1(String), test1(String), test1(String), test1(String), \upload\item\shop\6\2020061913161172087.jgp(String), 2020-06-19 13:16:11.469(Timestamp), 0(Integer), 审核中(String), 1(Long), 1(Integer), 6(Long)
+]2020-06-19 13:16:11.721 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
+]2020-06-19 13:17:06.196 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 13:17:06.239 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
+]2020-06-19 13:17:06.262 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 13:17:06.415 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+]2020-06-19 13:17:06.420 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试的店铺1(String), test1(String), test1(String), test1(String), \upload\item\shop\7\2020061913170684362.jpg(String), 2020-06-19 13:17:06.14(Timestamp), 0(Integer), 审核中(String), 1(Long), 1(Integer), 7(Long)
+]2020-06-19 13:17:06.434 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
+]2020-06-19 13:28:53.663 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 13:28:53.702 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺2(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
+]2020-06-19 13:28:53.719 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 13:30:18.006 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 13:30:18.043 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺2(String), test1(String), test1(String), test1(String), null, null, 0(Integer), 审核中(String)
+]2020-06-19 13:30:18.062 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
 ]
