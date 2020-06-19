@@ -23,7 +23,6 @@ public class ShopDaoTest extends BaseTest {
 		PersonInfo owner = new PersonInfo();
 		Area area = new Area();
 		ShopCategory shopCategory = new ShopCategory();
-		shop.setShopId(3L);
 		owner.setUserId(1L);
 		area.setAreaId(1);
 		shopCategory.setShopCategoryId(1L);
@@ -35,12 +34,7 @@ public class ShopDaoTest extends BaseTest {
 		shop.setShopAddr("test");
 		shop.setPhone("test");
 		shop.setShopImg("test");
-<<<<<<< HEAD
-		shop.setCreateTime(new Date());
-		shop.setLastEditTime(new Date());
-=======
 		shop.setPriority(3);
->>>>>>> branch 'master' of git@github.com:fangjin568/fangxm.git
 		shop.setEnableStatus(1);
 		shop.setAdvice("审核中");
 		int effectedNum = shopDao.insertShop(shop);
