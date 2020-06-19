@@ -39,4 +39,16 @@
 ]2020-06-18 22:39:46.548 [main]DEBUGcom.sc.dao.ShopDao.inserShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 1(Integer), 审核中(String)
 ]2020-06-18 22:39:46.602 [main]DEBUGcom.sc.dao.ShopDao.inserShop-<==    Updates: 1
 >>>>>>> branch 'master' of git@github.com:fangjin568/fangxm.git
+]2020-06-19 08:34:32.726 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 08:34:32.802 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 1(Integer), 审核中(String)
+]2020-06-19 08:34:33.708 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 08:59:58.247 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
+]2020-06-19 08:59:58.300 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试描述(String), 测试地址(String), 1(Long)
+]2020-06-19 08:59:58.445 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
+]2020-06-19 08:59:58.449 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==>  Preparing: insert into tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?,?) 
+]2020-06-19 08:59:58.452 [main]DEBUGcom.sc.dao.ShopDao.insertShop-==> Parameters: 1(Long), 1(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), 3(Integer), 1(Integer), 审核中(String)
+]2020-06-19 08:59:58.577 [main]DEBUGcom.sc.dao.ShopDao.insertShop-<==    Updates: 1
+]2020-06-19 09:00:50.214 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+]2020-06-19 09:00:50.295 [main]DEBUGcom.sc.dao.ShopDao.updateShop-==> Parameters: 测试描述(String), 测试地址(String), 2020-06-19 09:00:49.385(Timestamp), 1(Long)
+]2020-06-19 09:00:50.554 [main]DEBUGcom.sc.dao.ShopDao.updateShop-<==    Updates: 1
 ]
