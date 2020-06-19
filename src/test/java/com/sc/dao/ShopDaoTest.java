@@ -23,6 +23,7 @@ public class ShopDaoTest extends BaseTest {
 		PersonInfo owner = new PersonInfo();
 		Area area = new Area();
 		ShopCategory shopCategory = new ShopCategory();
+		shop.setShopId(3L);
 		owner.setUserId(1L);
 		area.setAreaId(1L);
 		shopCategory.setShopCategoryId(1L);
@@ -35,9 +36,10 @@ public class ShopDaoTest extends BaseTest {
 		shop.setPhone("test");
 		shop.setShopImg("test");
 		shop.setCreateTime(new Date());
+		shop.setLastEditTime(new Date());
 		shop.setEnableStatus(1);
 		shop.setAdvice("审核中");
-		int effectedNum = shopDao.inserShop(shop);
+		int effectedNum = shopDao.insertShop(shop);
 		assertEquals(1, effectedNum);
 	}
 }

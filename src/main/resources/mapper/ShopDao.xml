@@ -3,7 +3,7 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sc.dao.ShopDao">
-	<insert id="inserShop" useGeneratedKeys="true"
+	<insert id="insertShop" useGeneratedKeys="true"
 		keyColumn="shop_id" keyProperty="shopId">
 		insert into
 		tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,

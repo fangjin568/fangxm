@@ -8,5 +8,5 @@ public interface ShopDao {
 	 * @param shop
 	 * @return
 	 */
-	int inserShop(Shop shop);
+	int insertShop(Shop shop);
 }
